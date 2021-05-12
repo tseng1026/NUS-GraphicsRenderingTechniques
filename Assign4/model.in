@@ -1,0 +1,782 @@
+#=== maxShooterQuadEdgeLength ===
+70.0
+
+#=== maxGathererQuadEdgeLength ===
+30.0
+
+#=== VERTICES ===
+
+#Num of vertices
+132
+
+#floor (0 - 3)
+-300.0 0.0 300.0
+300.0 0.0 300.0
+300.0 0.0 -300.0
+-300.0 0.0 -300.0
+
+#ceiling (4 - 7)
+-300.0 400.0 300.0
+300.0 400.0 300.0
+300.0 400.0 -300.0
+-300.0 400.0 -300.0
+
+#light (8 - 11)
+125.0 350.0 -25.0
+175.0 350.0 -25.0
+175.0 350.0 25.0
+125.0 350.0 25.0
+
+#light lamp cover (12 - 15)
+143.75 375.0 -6.25
+156.25 375.0 -6.25
+156.25 375.0 6.25
+143.75 375.0 6.25
+
+#light lamp neck (16 - 19)
+143.75 400.0 -6.25
+156.25 400.0 -6.25
+156.25 400.0 6.25
+143.75 400.0 6.25
+
+#Danboard head top (20 - 23)
+-143.1 180.8 12.0
+-39.1 180.8 -48.0
+-9.6 170.4 3.2
+-113.5 170.4 63.2
+
+#Danboard head bottom (24 - 27)
+-150.0 102.0 0.0
+-46.1 102.0 -60.0
+-16.5 91.6 -8.8
+-120.5 91.6 51.2
+
+#Danboard body top (28 - 31)
+-119.2 102.0 -6.6
+-67.3 102.0 -36.6
+-47.3 98.5 -2.1
+-99.3 98.5 27.9
+
+#Danboard body bottom (32 - 35)
+-121.4 52.2 -10.4
+-69.4 52.2 -40.4
+-49.5 48.7 -5.9
+-101.5 48.7 24.1
+
+#Danboard left leg top (36 - 39)
+-87.4 17.1 -13.6
+-63.1 17.1 -27.6
+-56.3 54.7 -15.7
+-80.6 54.7 -1.7
+
+#Danboard left leg bottom (40 - 43)
+-63.9 0.0 27.1
+-39.7 0.0 13.1
+-32.8 37.6 24.9
+-57.1 37.6 38.9
+
+#Danboard left right top (44 - 47)
+-113.4 17.1 1.4
+-89.1 17.1 -12.6
+-82.3 54.7 -0.7
+-106.6 54.7 13.3
+
+#Danboard left right bottom (48 - 51)
+-89.9 0.0 42.1
+-65.7 0. 28.1
+-58.8 37.6 39.9
+-83.1 37.6 53.9
+
+#Danboard left arm top (52 - 55)
+-131.8 85.7 2.5
+-115.1 81.2 -7.5
+-104.7 82.0 13.5
+-121.4 86.5 19.5
+
+#Danboard left arm bottom (56 - 59)
+-142.1 27.3 11.5
+-125.4 22.8 1.5
+-115.0 23.6 18.6
+-131.7 28.1 28.6
+
+#Danboard right arm top (60 - 63)
+-63.2 81.2 -29.5
+-46.4 85.7 -39.5
+-36.0 84.9 -22.4
+-52.7 80.4 -12.5
+
+#Danboard right arm bottom (64 - 67)
+-52.9 22.8 -38.5
+-36.2 27.3 -48.5
+-25.8 26.5 -31.4
+-42.5 22.0 -21.4
+
+#Danboard left eye back (68 - 71)
+-91.0 131.0 42.2
+-78.0 131.0 34.7
+-76.7 145.7 36.9
+-89.7 145.7 44.4
+
+#Danboard left eye front (72 - 75)
+-89.5 130.5 44.7
+-76.5 130.5 37.2
+-75.2 145.2 39.5
+-88.2 145.2 47.0
+
+#Danboard right eye back (76 - 79)
+-52.0 131.0 19.7
+-39.0 131.0 12.2
+-37.7 145.7 14.4
+-50.7 145.7 21.9
+
+#Danboard right eye front (80 - 83)
+-50.6 130.5 22.2
+-37.6 130.5 14.7
+-36.3 145.2 17.0
+-49.3 145.2 24.5
+
+#Danboard mouth back (84 - 87)
+-80.6 101.4 30.2
+-54.6 101.4 15.2
+-53.3 116.2 17.4
+-79.3 116.2 32.4
+
+#Danboard mouth front (88 - 91)
+-79.1 100.9 32.7
+-53.2 100.9 17.7
+-51.9 115.7 20.0
+-77.8 115.7 35.0
+
+#table top (92 - 95)
+0.0 90.0 0.0
+100.0 90.0 0.0
+100.0 90.0 100.0
+0.0 90.0 100.0
+
+#table bottom (96 - 99)
+0.0 75.0 0.0
+100.0 75.0 0.0
+100.0 75.0 100.0
+0.0 75.0 100.0
+
+#table leg 1 top (100 - 103)
+0.0 75.0 0.0
+15.0 75.0 0.0
+15.0 75.0 15.0
+0.0 75.0 15.0
+
+#table leg 1 bottom (104 - 107)
+0.0 0.0 0.0
+15.0 0.0 0.0
+15.0 0.0 15.0
+0.0 0.0 15.0
+
+#table leg 2 top (108 - 111)
+85.0 75.0 0.0
+100.0 75.0 0.0
+100.0 75.0 15.0
+85.0 75.0 15.0
+
+#table leg 2 bottom (112 - 115)
+85.0 0.0 0.0
+100.0 0.0 0.0
+100.0 0.0 15.0
+85.0 0.0 15.0
+
+#table leg 3 top (116 - 119)
+85.0 75.0 85.0
+100.0 75.0 85.0
+100.0 75.0 100.0
+85.0 75.0 100.0
+
+#table leg 3 bottom (120 - 123)
+85.0 0.0 85.0
+100.0 0.0 85.0
+100.0 0.0 100.0
+85.0 0.0 100.0
+
+#table leg 4 top (124 - 127)
+0.0 75.0 85.0
+15.0 75.0 85.0
+15.0 75.0 100.0
+0.0 75.0 100.0
+
+#table leg 4 bottom (128 - 131)
+0.0 0.0 85.0
+15.0 0.0 85.0
+15.0 0.0 100.0
+0.0 0.0 100.0
+
+#=== MATERIALS ===
+
+#Number of materials
+7
+
+#Each material is specified by two lines.
+#First line is the RGB reflectivity.
+#Second line is the RGB emission.
+#The first material has index 0.
+
+#light
+0.90 0.90 0.90
+160.0 160.0 160.0
+
+#white
+0.75 0.75 0.75
+0.0 0.0 0.0
+
+#lamp
+0.164706 0.164706 0.647059
+0.0 0.0 0.0
+
+#light blue
+0.74902 0.847059 0.847059
+0.0 0.0 0.0
+
+#medium wood
+0.65 0.50 0.39
+0.0 0.0 0.0
+
+#Very Dark Brown 
+0.20 0.12 0.10
+0.0 0.0 0.0
+
+#crayon blue
+0.3 0.6 1.0
+0.0 0.0 0.0
+
+#=== SURFACES ===
+
+#Number of surfaces
+98
+
+#Each surface is made of one or more quadrilateral patches.
+#For each surface, the first integer is the material index,
+#the second integer is the number of quadrilateral patches,
+#then followed by lines where each corresponds to a 
+#quadrilateral patch. Each line has 4 integers, which are
+#indices to the above vertices. The vertices must be listed
+#in counter-clockwise direction when viewed from its frontside.
+
+#--------------------------
+#floor (white)
+1
+1
+0 1 2 3
+
+#ceiling
+1
+1
+7 6 5 4
+
+#back wall
+3
+1
+3 2 6 7
+
+#left wall
+6
+1
+0 3 7 4
+
+#right wall (5th surface)
+6
+1
+2 1 5 6
+#--------------------------
+
+#--------------------------
+#light
+0
+1
+8 9 10 11
+
+#light lamp cover 1
+2
+1
+8 9 13 12
+
+#light lamp cover 2
+2
+1
+9 10 14 13
+
+#light lamp cover 3
+2
+1
+10 11 15 14
+
+#light lamp cover 4 (10th surface)
+2
+1
+11 8 12 15
+
+#light lamp neck 1
+4
+1
+12 13 17 16
+
+#light lamp neck 2
+1
+1
+13 14 18 17
+
+#light lamp neck 3
+1
+1
+14 15 19 18
+
+#light lamp neck 4
+1
+1
+15 12 16 19
+#--------------------------
+
+#--------------------------
+#Danboard head top (15th surface)
+4
+1
+21 20 23 22
+
+#Danboard head bottom 
+4
+1
+24 25 26 27
+
+#Danboard head side 1
+4
+1
+20 21 25 24
+
+#Danboard head side 2
+4
+1
+21 22 26 25
+
+#Danboard head side 2
+4
+1
+22 23 27 26
+
+#Danboard head side 2 (20th surface)
+4
+1
+23 20 24 27
+#--------------------------
+
+#--------------------------
+#Danboard body top
+4
+1
+29 28 31 30
+
+#Danboard body bottom 
+4
+1
+32 33 34 35
+
+#Danboard body side 1
+4
+1
+28 29 33 32
+
+#Danboard body side 2
+4
+1
+29 30 34 33
+
+#Danboard body side 3 (25th surface)
+4
+1
+30 31 35 34
+
+#Danboard body side 4
+4
+1
+31 28 32 35
+#--------------------------
+
+#--------------------------
+#Danboard left leg top
+4
+1
+37 36 39 38
+
+#Danboard left leg bottom 
+4
+1
+40 41 42 43
+
+#Danboard left leg side 1
+4
+1
+36 37 41 40
+
+#Danboard left leg side 2 (30th surface)
+4
+1
+37 38 42 41
+
+#Danboard left leg side 3
+4
+1
+38 39 43 42
+
+#Danboard left leg side 4
+4
+1
+39 36 40 43
+#--------------------------
+
+#--------------------------
+#Danboard right leg top
+4
+1
+45 44 47 46
+
+#Danboard right leg bottom 
+4
+1
+48 49 50 51
+
+#Danboard right leg side 1 (35th surface)
+4
+1
+44 45 49 48
+
+#Danboard right leg side 2
+4
+1
+45 46 50 49
+
+#Danboard right leg side 3
+4
+1
+46 47 51 50
+
+#Danboard right leg side 4
+4
+1
+47 44 48 51
+#--------------------------
+
+#--------------------------
+#Danboard left arm top
+4
+1
+53 52 55 54
+
+#Danboard left arm bottom (40th surface)
+4
+1
+56 57 58 59
+
+#Danboard left arm side 1
+4
+1
+52 53 57 56
+
+#Danboard left arm side 2
+4
+1
+53 54 58 57
+
+#Danboard left arm side 3
+4
+1
+54 55 59 58
+
+#Danboard left arm side 4
+4
+1
+55 52 56 59
+#--------------------------
+
+#--------------------------
+#Danboard right arm top (45th surface)
+4
+1
+61 60 63 62
+
+#Danboard right arm bottom
+4
+1
+64 65 66 67
+
+#Danboard right arm side 1
+4
+1
+60 61 65 64
+
+#Danboard right arm side 2
+4
+1
+61 62 66 65
+
+#Danboard right arm side 3
+4
+1
+62 63 67 66
+
+#Danboard right arm side 4 (50th surface)
+4
+1
+63 60 64 67
+#--------------------------
+
+#--------------------------
+#Danboard left eye back
+4
+1
+69 68 71 70
+
+#Danboard left eye front
+5
+1
+72 73 74 75
+
+#Danboard left eye side 1
+5
+1
+68 69 73 72
+
+#Danboard left eye side 2
+5
+1
+69 70 74 73
+
+#Danboard left eye side 3 (55th surface)
+5
+1
+70 71 75 74
+
+#Danboard left eye side 4
+5
+1
+71 68 72 75
+#--------------------------
+
+#--------------------------
+#Danboard right eye back
+4
+1
+77 76 79 78
+
+#Danboard right eye front
+5
+1
+80 81 82 83
+
+#Danboard right eye side 1
+5
+1
+76 77 81 80
+
+#Danboard right eye side 2 (60th surface)
+5
+1
+77 78 82 81
+
+#Danboard right eye side 3
+5
+1
+78 79 83 82
+
+#Danboard right eye side 4
+5
+1
+79 76 80 83
+#--------------------------
+
+#--------------------------
+#Danboard mouth back
+4
+1
+85 84 87 86
+
+#Danboard mouth front
+5
+1
+88 89 90 91
+
+#Danboard mouth side 1 (65th surface)
+5
+1
+84 85 89 88
+
+#Danboard mouth side 2
+5
+1
+85 86 90 89
+
+#Danboard mouth side 3
+5
+1
+86 87 91 90
+
+#Danboard mouth side 4
+5
+1
+87 84 88 91
+#--------------------------
+
+#--------------------------
+#table top
+4
+1
+93 92 95 94
+
+#table bottom (70th surface)
+5
+1
+96 97 98 99
+
+#table side 1
+5
+1
+92 93 97 96
+
+#table side 2
+5
+1
+93 94 98 97
+
+#table side 3
+5
+1
+94 95 99 98
+
+#table side 4
+5
+1
+95 92 96 99
+#--------------------------
+
+#--------------------------
+#table leg 1 top (75th surface)
+4
+1
+101 100 103 102
+
+#table leg 1 bottom
+5
+1
+104 105 106 107
+
+#table leg 1 side 1
+5
+1
+100 101 105 104
+
+#table leg 1 side 2
+5
+1
+101 102 106 105
+
+#table leg 1 side 3
+5
+1
+102 103 107 106
+
+#table leg 1 side 4 (80th surface)
+5
+1
+103 100 104 107
+#--------------------------
+
+#--------------------------
+#table leg 2 top
+4
+1
+109 108 111 110
+
+#table leg 2 bottom
+5
+1
+112 113 114 115
+
+#table leg 2 side 1
+5
+1
+108 109 113 112
+
+#table leg 2 side 2
+5
+1
+109 110 114 113
+
+#table leg 2 side 3 (85th surface)
+5
+1
+110 111 115 114
+
+#table leg 2 side 4
+5
+1
+111 108 112 115
+#--------------------------
+
+#--------------------------
+#table leg 3 top
+4
+1
+117 116 119 118
+
+#table leg 3 bottom
+5
+1
+120 121 122 123
+
+#table leg 3 side 1
+5
+1
+116 117 121 120
+
+#table leg 3 side 2 (90th surface)
+5
+1
+117 118 122 121
+
+#table leg 3 side 3
+5
+1
+118 119 123 122
+
+#table leg 3 side 4
+5
+1
+119 116 120 123
+#--------------------------
+
+#--------------------------
+#table leg 4 top
+4
+1
+125 124 127 126
+
+#table leg 4 bottom
+5
+1
+128 129 130 131
+
+#table leg 4 side 1 (95th surface)
+5
+1
+124 125 129 128
+
+#table leg 4 side 2
+5
+1
+125 126 130 129
+
+#table leg 4 side 3
+5
+1
+126 127 131 130
+
+#table leg 4 side 4
+5
+1
+127 124 128 131
+#--------------------------
+#End of file.

@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DADE01C7562C45D29EBC5DA6 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E5707477DF434F07B96941E3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				527B8D6D261F0A0B00670059 /* ShellScript */,
+			);
+			dependencies = (
+				9B20E7FF3D6143ADA66281F2 /* PBXTargetDependency */,
+				74600246C3FF4FCCACD4C1F4 /* PBXTargetDependency */,
+				E6DC6C4CDAEA454C9C82F8B4 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0CFFC6531EC54E698B90BF02 /* trackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C39B75CE56D423AA8E5AF51 /* trackball.cpp */; };
+		15B171C6DED141C2A13DD7ED /* radiositysolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F74823DB4AB415A89F38C62 /* radiositysolver.cpp */; };
+		2E12252C95904905B4E563D3 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F75FAD3B70674899B37E16C5 /* common.cpp */; };
+		4C7245C41DFE46FC809488B9 /* quadmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 534B52742E4F4D398366E705 /* quadmodel.cpp */; };
+		805A97D60F6C4D2394840C1F /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2D063F405344B0E97C7A8E5 /* common.cpp */; };
+		83D044C301CF417593137E30 /* quadsviewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFC47B5ED47447D6BBB5D37C /* quadsviewer.cpp */; };
+		AEC121ABA7F5483A993AEF26 /* trackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE5E49B0B36842F89135E732 /* trackball.cpp */; };
+		B001365978DF4D25B12402B4 /* quadmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5A3423C42244C11BB8B974C /* quadmodel.cpp */; };
+		E68C17E55AB84020B0A41227 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CA676EB30F448FE97B886B0 /* common.cpp */; };
+		F9170D20D21E4658AB09F4BD /* radiosityviewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08642799827049908E2AA3E2 /* radiosityviewer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B25EE7AB49342D18C8396B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34199F6AC3E4D39B4694253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A091236A64458BBF4EA8FF;
+			remoteInfo = RadiosityViewer;
+		};
+		6776DDAE2DAF4D22ABCD328E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34199F6AC3E4D39B4694253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F04379CFAC49E6BADF1322;
+			remoteInfo = QuadsViewer;
+		};
+		EFD29A4E1D154058BD7C8946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34199F6AC3E4D39B4694253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66311884D4734048902E0769;
+			remoteInfo = RadiositySolver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08642799827049908E2AA3E2 /* radiosityviewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = radiosityviewer.cpp; sourceTree = SOURCE_ROOT; };
+		534B52742E4F4D398366E705 /* quadmodel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = quadmodel.cpp; sourceTree = SOURCE_ROOT; };
+		7C39B75CE56D423AA8E5AF51 /* trackball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = trackball.cpp; sourceTree = SOURCE_ROOT; };
+		7CA676EB30F448FE97B886B0 /* common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = common.cpp; sourceTree = SOURCE_ROOT; };
+		7DA56E1533A34CBD8557B3F5 /* QuadsViewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = QuadsViewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F74823DB4AB415A89F38C62 /* radiositysolver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = radiositysolver.cpp; sourceTree = SOURCE_ROOT; };
+		9A222261C26848FE941F965B /* RadiosityViewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = RadiosityViewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BE6292A7B9466CAE6D65FE /* RadiositySolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = RadiositySolver; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D063F405344B0E97C7A8E5 /* common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = common.cpp; sourceTree = SOURCE_ROOT; };
+		E5A3423C42244C11BB8B974C /* quadmodel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = quadmodel.cpp; sourceTree = SOURCE_ROOT; };
+		EE5E49B0B36842F89135E732 /* trackball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = trackball.cpp; sourceTree = SOURCE_ROOT; };
+		F75FAD3B70674899B37E16C5 /* common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = common.cpp; sourceTree = SOURCE_ROOT; };
+		FFC47B5ED47447D6BBB5D37C /* quadsviewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = quadsviewer.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E29E9D2B2142E185DAB7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FF7AF8CEF2436D9B52B2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57A1FDEA0F444B79365ACB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6DEBD250AB486A981FD0B8 = {
+			isa = PBXGroup;
+			children = (
+				11ECC4F662EE47AD8387FCD6 /* RadiosityViewer */,
+				7BD7C972409F4B68B7583069 /* RadiositySolver */,
+				B3446E2B9DBB41D4B4C09EC4 /* QuadsViewer */,
+				AAFAA356331F4AD8B0B25640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11ECC4F662EE47AD8387FCD6 /* RadiosityViewer */ = {
+			isa = PBXGroup;
+			children = (
+				742571495B2644A9AA12A403 /* Source Files */,
+			);
+			name = RadiosityViewer;
+			sourceTree = "<group>";
+		};
+		4D14063D34624D7C80F441D4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2D063F405344B0E97C7A8E5 /* common.cpp */,
+				534B52742E4F4D398366E705 /* quadmodel.cpp */,
+				7F74823DB4AB415A89F38C62 /* radiositysolver.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		742571495B2644A9AA12A403 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CA676EB30F448FE97B886B0 /* common.cpp */,
+				08642799827049908E2AA3E2 /* radiosityviewer.cpp */,
+				7C39B75CE56D423AA8E5AF51 /* trackball.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7BD7C972409F4B68B7583069 /* RadiositySolver */ = {
+			isa = PBXGroup;
+			children = (
+				4D14063D34624D7C80F441D4 /* Source Files */,
+			);
+			name = RadiositySolver;
+			sourceTree = "<group>";
+		};
+		953FB23DA1384FF992228138 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75FAD3B70674899B37E16C5 /* common.cpp */,
+				E5A3423C42244C11BB8B974C /* quadmodel.cpp */,
+				FFC47B5ED47447D6BBB5D37C /* quadsviewer.cpp */,
+				EE5E49B0B36842F89135E732 /* trackball.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AAFAA356331F4AD8B0B25640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DA56E1533A34CBD8557B3F5 /* QuadsViewer */,
+				E2BE6292A7B9466CAE6D65FE /* RadiositySolver */,
+				9A222261C26848FE941F965B /* RadiosityViewer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3446E2B9DBB41D4B4C09EC4 /* QuadsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				953FB23DA1384FF992228138 /* Source Files */,
+			);
+			name = QuadsViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A091236A64458BBF4EA8FF /* RadiosityViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB674DD21EA0416B96FA1166 /* Build configuration list for PBXNativeTarget "RadiosityViewer" */;
+			buildPhases = (
+				220371AC2A5D479C9F141F11 /* Sources */,
+				B57A1FDEA0F444B79365ACB9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadiosityViewer;
+			productName = RadiosityViewer;
+			productReference = 9A222261C26848FE941F965B /* RadiosityViewer */;
+			productType = "com.apple.product-type.tool";
+		};
+		66311884D4734048902E0769 /* RadiositySolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6F72D7E9AF4E11800E4483 /* Build configuration list for PBXNativeTarget "RadiositySolver" */;
+			buildPhases = (
+				5F651E9BBFAE421B80FA01AF /* Sources */,
+				A4E29E9D2B2142E185DAB7DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadiositySolver;
+			productName = RadiositySolver;
+			productReference = E2BE6292A7B9466CAE6D65FE /* RadiositySolver */;
+			productType = "com.apple.product-type.tool";
+		};
+		C6F04379CFAC49E6BADF1322 /* QuadsViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A48FC95EFD747A1B8540747 /* Build configuration list for PBXNativeTarget "QuadsViewer" */;
+			buildPhases = (
+				24F5B61E70C2481391EDE8C5 /* Sources */,
+				A9FF7AF8CEF2436D9B52B2E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuadsViewer;
+			productName = QuadsViewer;
+			productReference = 7DA56E1533A34CBD8557B3F5 /* QuadsViewer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F34199F6AC3E4D39B4694253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 8E78BFE542BB467899EB18AE /* Build configuration list for PBXProject "assign4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F6DEBD250AB486A981FD0B8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADE01C7562C45D29EBC5DA6 /* ALL_BUILD */,
+				C6F04379CFAC49E6BADF1322 /* QuadsViewer */,
+				66311884D4734048902E0769 /* RadiositySolver */,
+				15A091236A64458BBF4EA8FF /* RadiosityViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		527B8D6D261F0A0B00670059 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220371AC2A5D479C9F141F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68C17E55AB84020B0A41227 /* common.cpp in Sources */,
+				F9170D20D21E4658AB09F4BD /* radiosityviewer.cpp in Sources */,
+				0CFFC6531EC54E698B90BF02 /* trackball.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F5B61E70C2481391EDE8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E12252C95904905B4E563D3 /* common.cpp in Sources */,
+				B001365978DF4D25B12402B4 /* quadmodel.cpp in Sources */,
+				83D044C301CF417593137E30 /* quadsviewer.cpp in Sources */,
+				AEC121ABA7F5483A993AEF26 /* trackball.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F651E9BBFAE421B80FA01AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805A97D60F6C4D2394840C1F /* common.cpp in Sources */,
+				4C7245C41DFE46FC809488B9 /* quadmodel.cpp in Sources */,
+				15B171C6DED141C2A13DD7ED /* radiositysolver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74600246C3FF4FCCACD4C1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66311884D4734048902E0769 /* RadiositySolver */;
+			targetProxy = EFD29A4E1D154058BD7C8946 /* PBXContainerItemProxy */;
+		};
+		9B20E7FF3D6143ADA66281F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A091236A64458BBF4EA8FF /* RadiosityViewer */;
+			targetProxy = 2B25EE7AB49342D18C8396B7 /* PBXContainerItemProxy */;
+		};
+		E6DC6C4CDAEA454C9C82F8B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F04379CFAC49E6BADF1322 /* QuadsViewer */;
+			targetProxy = 6776DDAE2DAF4D22ABCD328E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CA739632E724C7E96029F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $PROJECT_DIR;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QuadsViewer;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = $PROJECT_DIR;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		27A0EE1A5BE74725A194C1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = $PROJECT_DIR;
+			};
+			name = Release;
+		};
+		2C52EFEB715D4DB4A38062ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $PROJECT_DIR;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RadiosityViewer;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = $PROJECT_DIR;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		3D46145AB14C4072A4C566D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = $PROJECT_DIR;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		4C5B6A6526114CF7B0817D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $PROJECT_DIR;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/test/Downloads/assign4_done_(win-vs2017)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RadiositySolver;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = $PROJECT_DIR;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		6A80DAEC17CA4B998BB9830A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $PROJECT_DIR;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QuadsViewer;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = $PROJECT_DIR;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		81211C5B583541D89B3A9708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $PROJECT_DIR;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RadiosityViewer;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = $PROJECT_DIR;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		A4272B5BBFC24CA29274382A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $PROJECT_DIR;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/test/Downloads/assign4_done_(win-vs2017)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RadiositySolver;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = $PROJECT_DIR;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		C340718488924BDD9E964F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = $PROJECT_DIR;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		C982A5CF702F4FD4BFD3604F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = $PROJECT_DIR;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A48FC95EFD747A1B8540747 /* Build configuration list for PBXNativeTarget "QuadsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA739632E724C7E96029F4E /* Debug */,
+				6A80DAEC17CA4B998BB9830A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F6F72D7E9AF4E11800E4483 /* Build configuration list for PBXNativeTarget "RadiositySolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4272B5BBFC24CA29274382A /* Debug */,
+				4C5B6A6526114CF7B0817D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E78BFE542BB467899EB18AE /* Build configuration list for PBXProject "assign4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C982A5CF702F4FD4BFD3604F /* Debug */,
+				27A0EE1A5BE74725A194C1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5707477DF434F07B96941E3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C340718488924BDD9E964F13 /* Debug */,
+				3D46145AB14C4072A4C566D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB674DD21EA0416B96FA1166 /* Build configuration list for PBXNativeTarget "RadiosityViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C52EFEB715D4DB4A38062ED /* Debug */,
+				81211C5B583541D89B3A9708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F34199F6AC3E4D39B4694253 /* Project object */;
+}
